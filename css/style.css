@@ -1,0 +1,33 @@
+*{margin:0; padding: 0; box-sizing: border-box;}
+
+/*Aqui vamos trabalhar o cabeçalho*/
+header{
+    background-color:#3db36b;
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 5px solid #0f642f;
+
+}
+
+/*Aqui vamos trabalhar main galeria de produtos*/
+.container{
+    background-color: #eee;
+    min-height: 30vh;
+    padding: 30px;
+}
+
+/*Aqui nos vamos trabalhar os tenis */
+.card{
+    width: 31%;
+    display: inline-block;
+    
+}
+
+/*Aqui vamos trabalhar o rodape*/
+footer{
+    background-color: #3db36b;
+    color: #eee;
+    border-top: 3px;
+    padding: 3px;
+}
