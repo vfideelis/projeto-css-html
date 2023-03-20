@@ -2,11 +2,11 @@
 
 /*Aqui vamos trabalhar o cabeçalho*/
 header{
-    background-color:#3db36b;
+    background-color:#0000ff;
     color:#fff;
     padding: 10px;
     text-align: center;
-    border-bottom: 5px solid #0f642f;
+    border-bottom: 5px solid #4104dc;
 
 }
 
@@ -34,28 +34,29 @@ header{
     background-position: center;
     background-size: cover;
 }
-#img-1{
-    background-image: url('../img/tenis1.jpg');
+#mclaren{
+    background-image: url('../img/mclaren.jpg');
 }
-#img-2{
-    background-image:url(../img/img2-bmw-i8.webp);
+#bmwi8{
+    background-image:url(../img/bmwi8.webp);
 }
 
-#img-3{
-    background-image: url(../img/tenis3.jpg);
+#volvoex90{
+    background-image: url(../img/volvoex90.jpg);
 }
-#img-4{
-    background-image: url('../img/tenis4.jpg');
-}#img-5{
-    background-image: url('../img/tenis5.jpg');
-}#img-6{
-    background-image: url('../img/tenis6.jpg');
+#bugatti{
+    background-image: url('../img/bugatti.jpg');
+}#tesla{
+    background-image: url('../img/Tesla.jpg');
+}
+#rollsroyce{
+    background-image: url('../img/rollsroyce.webp');
 }
 /*Aqui vamos trabalhar as fontes*/ 
 h3{
     margin-bottom: 10px;
-    color: #3db36b;
-    border-left:5px solid #0f642f;
+    color: #260ce8;
+    border-left:5px solid #0871f0;
     padding-left: 7px;
     font-size: 24px;
 }
@@ -65,7 +66,7 @@ h3{
 }
 /*Aqui vamos trabalhar o rodape*/
 footer{
-    background-color: #3db36b;
+    background-color: #18149c;
     color: #eee;
     border-top: 3px;
     padding: 3px;
@@ -77,7 +78,7 @@ footer{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    background-color: #3db36b;
+    background-color: #1c0df3;
     color: #eee;
     padding: 15px;
     border: radius 5px;
@@ -86,5 +87,5 @@ footer{
 
 /*Btn hover na hora que passa o mouse em cima ele faz uma animação de trocar a cor*/ 
 .btn:hover{
-    background-color: #0f642f;
+    background-color: #040470;
 }
