@@ -2,36 +2,54 @@
 
 /*Aqui vamos trabalhar o cabeçalho*/
 header{
+  /*cor de fundo*/  
     background-color:#0000ff;
+    /*Cor da legenda do fundo */
     color:#fff;
+    /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
     padding: 10px;
+    /*usada para centralizar horizontalmente o texto na página.*/
     text-align: center;
+    /*definir diversas propriedades da borda de baixo (bottom)*/
     border-bottom: 5px solid #4104dc;
 
 }
 
 /*Aqui vamos trabalhar main galeria de produtos*/
 .container{
+    /*cor de fundo*/ 
     background-color: #eee;
+    /*define a altura mínima de um elemento */
     min-height: 30vh;
+      /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
     padding: 30px;
 }
 
 /*Aqui nos vamos trabalhar os tenis */
 .card{
+    /*especifica a largura de uma imagem ou outras coisas*/
     width: 31%;
+    /*é uma propriedade utilizada para organizar os elementos na página HTML. Ela pode conter diferentes valores, entre eles o flex e o grid, que possibilitam a criação de layouts responsivos.*/
     display: inline-block;
+    /*define a área de margem nos quatro lados do elemento*/
     margin: 1%; 1%;
+    /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
     padding:15px
+    /* define a margin area na parte inferior de um elemento(define a margem do botão*/
     margin-bottom: 10px;
 }
 
 /*Trabalhando as imagens*/
 .product-image{
+    /*Definir a altura*/
     height: 300px;
+     /*especifica a largura de uma imagem ou outras coisas*/
     width: 100%;
+    /* define a margin area na parte inferior de um elemento(define a margem do botão*/
     margin-bottom: 10px;
+    /*Define como e onde a imagem de fundo é posicionada*/
     background-position: center;
+   /*especifica o tamanho das imagens de fundo*/
     background-size: cover;
 }
 #mclaren{
@@ -54,38 +72,60 @@ header{
 }
 /*Aqui vamos trabalhar as fontes*/ 
 h3{
+     /* define a margin area na parte inferior de um elemento(define a margem do botão*/
     margin-bottom: 10px;
+    /*Define a cor da fonte do nome do produto*/
     color: #260ce8;
+    /*Aplica borda no lado esquerdo de um elemento.*/
     border-left:5px solid #0871f0;
+    /*representa a distância no lado esquerdo do box\*/
     padding-left: 7px;
+    /*Através do font-size você pode regular o tamanho da fonte*/
     font-size: 24px;
 }
 
+/*Aqui vamos trabalhar todas fontes bold*/
 .bold{
+    /*especifica o peso ou a intensidade da fonte (nesse caso a cor da fonte "bold"*/
     font-weight: bold;
 }
 /*Aqui vamos trabalhar o rodape*/
 footer{
+    /*cor de fundo*/  
     background-color: #18149c;
+    /*Cor da legenda do rodape "Galeria dos Tenis ©2023"*/
     color: #eee;
+    /*Aplica borda na parte superior de um elemento.*/
     border-top: 3px;
+     /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
     padding: 3px;
 }
 /*Aqui vamos trabalhar os botoes "comprar"*/
 .btn{
+     /*é uma propriedade utilizada para organizar os elementos na página HTML. Ela pode conter diferentes valores, entre eles o flex e o grid, que possibilitam a criação de layouts responsivos.*/
     display: block;
+    /*especifica a largura de uma imagem ou outras coisas*/
     width: 100%;
+     /*usada para centralizar horizontalmente o texto na página.*/
     text-align: center;
+   /*é usada para definir a formatação de underline , overline , line-through ou blink*/ 
     text-decoration: none;
+   /*destina-se a definir os efeitos de capitalização (maiúsculas, minúsculas) do texto*/
     text-transform: uppercase;
+ /*cor de fundo*/  
     background-color: #1c0df3;
+ /*Cor da legenda do fundo */
     color: #eee;
+  /* define uma a distância entre o conteúdo de um elemento e suas bordas.*/
     padding: 15px;
+    /*destina-se a definir bordas arredondadas*/
     border: radius 5px;
+   /*é um poderoso recurso para a criação de efeitos de animação nos elementos HTML(quando vc passa o mouse em cima faz uma animação de mudar a cor do botão*/ 
     transition:5s;
 }
 
 /*Btn hover na hora que passa o mouse em cima ele faz uma animação de trocar a cor*/ 
 .btn:hover{
+    /*cor de fundo*/  
     background-color: #040470;
 }
